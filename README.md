@@ -34,7 +34,7 @@ O sistema permite selecionar funcionários, escolher EPIs, informar quantidades 
 - Bibliotecas: Instale via `pip install pandas weasyprint requests pillow`.
   - **Nota sobre WeasyPrint**: Pode requerer dependências do sistema como Pango e Cairo (ex: no Ubuntu, `sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libcairo2`).
 - Arquivos de dados: `data/estoque.csv` e `data/funcionarios.csv`.
-- Template: `TEMPLATE_CONTROLE_EPI.tpl` (HTML com placeholders como `{{NOME_FUNCIONARIO}}`, `{{NOME_DA_EMPRESA}}`, `{{DATA_HOJE}}` e `{{TABELA_DE_ITENS}}`).
+- Template: `template.tpl` (HTML com placeholders como `{{NOME_FUNCIONARIO}}`, `{{NOME_DA_EMPRESA}}`, `{{DATA_HOJE}}` e `{{TABELA_DE_ITENS}}`).
 - Configuração: `config.ini` com chaves da API Omie.
 
 ---
