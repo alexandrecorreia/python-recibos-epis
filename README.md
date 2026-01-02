@@ -58,7 +58,8 @@ O sistema permite selecionar funcionários, escolher EPIs, informar quantidades 
 ├── data/
 │   ├── estoque.csv             # Lista de EPIs
 │   └── funcionarios.csv        # Lista de funcionários
-└── TEMPLATE_CONTROLE_EPI.tpl   # Template HTML para PDF
+├── tpl/
+    └── template.tpl        # Template HTML para PDF
 ```
 
 ---
